@@ -1,0 +1,109 @@
+@media (prefers-color-scheme: dark){
+    main{
+        color: #dadada;
+        background-color: #121212;
+      }
+    .nav-controls{
+    color: #dadada;
+    background-color: #121212
+    }
+    }
+    @media (prefers-color-scheme: light){
+    main{
+      background-color: #dadada;
+      color: #121212
+    }
+    .nav-controls{
+      background-color: #6200ee;
+      color: #dadada;
+    }
+    }
+    main{
+      font-family: 'Segoe UI';
+      background-color: #dadada;
+      color: #121212;
+      font-size: 21px;
+      padding-left: 285px;
+    padding-right: 119px;
+    height: 100%
+    }
+    h1{
+    text-align: center !important;
+    font-family: Arial !important;
+    font-size: 45 !important;
+    padding: auto !important;
+    margin: auto !important;
+    }
+    main .main-section img{
+    border-radius: 50px;
+    }
+    #csslogo{
+      width: 500px;
+      justify-content: space-between;
+      align-items: right;
+      float: right;
+    }
+    #htmllogo{
+      width: 500px;
+      justify-content: space-between;
+      align-items: left;
+      float: left;
+    }
+    div img{
+      display: inline-block;
+    }
+    .fa-solid{
+      width: 200px
+    }
+    .htmlxcss{
+      text-align: center !important;
+      padding-top: 231px !important;
+      color: black !important;
+      font-family: Verdana !important;
+      font-size: 35px !important;
+      font-style: normal !important;
+    }
+    header{
+      font-style: italic;
+      padding-top: 1px;
+    }
+    .htmlheader{
+      color: #e44d26;
+    }
+    .cssheader{
+      color: #379ad6;
+    }
+    .reference{
+      text-align: center;
+      padding-top: 25px;
+      
+    }
+    nav li{
+      list-style: none;
+    }
+    li a{
+      display: block;
+      width: 360px;
+    }
+    nav .nav-controls{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+    }
+    .nav-controls{
+      position: fixed;
+      width: 270px;
+      background-color: #6200ee ;
+      color: #dadada;
+      height: 100%;
+      font-family: Tahoma;
+      font-size: 15px
+    }
+    a{
+      color: inherit;
+    }
+    nav header{
+      color: #dadada;
+    }

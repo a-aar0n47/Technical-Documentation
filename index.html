@@ -1,97 +1,51 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<link rel='stylesheet' href='styles.css'>
-<title>HTML and CSS</title>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Aaron Musisi">
+    <meta name="description" content="Responsive and attractive birthday card for Viola Nassuna Musisi: a mother like no one else!">
+    <meta name="keywords" content="birthday, happy birthday, responsive birthday card, mother">
+    <!--Stylesheets-->
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Happy Birthday |  Viola Musisi</title>
+   </head>
 <body>
-<nav id='navbar'>
-  <div class='navigation'>
-<header>HTML and CSS are the corner stones of coding. They are the first languages any programmer should learn.</header>
+    <div class="title">
+        <h1><strong class="slider">Happy</strong> <strong class="slider">40<sup>th</sup></strong> <strong class="slider">Birthday!</strong></h1>
+    </div>
+    <div class="card">
+        <div class="pageOne">
+            <div class="message">
+                <div class="haiku">
+                    <p>To:</p>
+                <h2>Viola Nassuna Musisi</h2>
+                <br>
+<div class="poem">
+                    <p>A mother like no other, <br>
+                A one in a million friend, <br>
+            A child of God like the other 8 billion.</p>
+            <br>
+            <p>The gem in my life, <br>
+            Never vile,<br>
+            Radiating beauty, <br>
+        As she always smiles</p>
+        <br>
+        <p>Motivated,<br>
+        Bold, <br>
+    Passionate, <br>
+Not enough words could describe a pure soul.</p>
 </div>
-<div class='nav-controls'>
-<ol>
-<li><a class='nav-link' href='#HTML_and_CSS_Introduction'>HTML and CSS Introduction</a></li>
-<br><br><br>
-<li><a class='nav-link' href='#HTML_elements_and_attributes'>HTML elements and attributes</a>
-<br><br><br>
-<li><a class='nav-link' href='#CSS_selectors_and_properties'>CSS selectors and properties</a></li>
-<br><br><br>
-<li><a class='nav-link' href='#HTML_charset'>HTML Charset</a></li>
-<br><br><br>
-<li><a class='nav-link' href='#HTML5_x_CSS3'>HTML5 x CSS3</a></li>
-<br><br><br>
-</ol>
-</div>
-</nav>
-<main id='main-doc'>
-<h1>HTML and CSS<h1>
-<h2>Introduction</h2>
-<section id='HTML_and_CSS_Introduction' class='main-section'>
-<header><code>HTML and CSS introduction</code>
-</header>
-<p>HTML stands for <var>Hyper Text Markup Language</var>. HTML is
-the standard markup language for creating web pages, and it 
-describes the structure of a web page. HTML consists of a series of 
-elements which tell the browser how to display the content.</p>
-<p>CSS stands for <var>Cascading Style Sheets</var>. CSS is a 
-stylesheet language used to describe the presentation of a document 
-in HTML. It describes how elements should be rendered on screen, on 
-paper, in speech or on other media.</p>
-</section>
-<h2>HTML Elements</h2>
-<section id='HTML_elements_and_attributes' class='main-section'>
-<header><code>HTML elements and attributes</code></header>
-<p>An HTML element is defined by a starting tag, its content and an end tag. Some elements do not need ending tags and some don't require content.</p>
-<p>HTML attributes provide additional information about HTML elements.</p>
-<h3>HTML Attributes</h3>
-<ol style='list-style-type:disc'>
-<li>All HTML elements can have attributes</li>
-<br>
-<li>Attributes provide <b>additional information</b> about elements</li>
-<br>
-<li>Attributes are <strong>always</strong> specified in the start/openings tag</li>
-<br>
-<li>They usually come in name/value pairs such as: <b>name='value'</b></li>
-<br>
-<li>Example of attribute use: 'div <code>class</code>= main'</li>
-</ol>
-</section>
-<h2>CSS Selectors</h2>
-<section id='CSS_selectors_and_properties' class='main-section'>
-<header><code>CSS selectors and properties</code></header>
-<p>A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.</p>
-<p>A CSS property is a characteristic (like color) whose associated value defines one aspect of how the browser should display the element.</p>
-<h4>Selectors and Properties Example</h4>
-<img src='https://www.thoughtco.com/thmb/pnlxIDFwa8gnFjp-YP5Cr41bxA4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/css-example-59b800d1d963ac00118f455e.jpg' alt='CSS rule'>
-</section>
-<h2>HTML Charset</h2>
-<section id='HTML_charset' class='main-section'>
-<header><code>HTML charset</code></header>
-<p>HTML Charset is also called HTML Character Sets or HTML Encoding. It is used to display an HTML page properly and correctly because for displaying anything correctly, a web browser must know which character set (character encoding) to use.</p>
-<h3>UTF-8 Character Set</h3>
-<p>UTF-8 is a variable width character encoding which covers almost all of the characters and symbols in the world. ANSI (Windows-1252) was the original Windows character set, which supported 256 different character codes.</p>
-<p>ISO-8859-1 was the default character set for HTML 4. This character set also supported 256 different character codes.</p>
-<h4>Why UTF-8 is also supported in HTML4?</h4>
-<p>Because ANSI and ISO-8859-1 were so limited, HTML 4 also supported UTF-8.The default character encoding for HTML5 is UTF-8.</p>
-<h4>UTF-8 syntax for HTML4:</h4>
-<p>meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"></p>
-<h4>UTF-8 syntax for HTML5:</h4>
-<p>meta charset="UTF-8"></p>
-</section>
-<div class='hxc'>
-<img id='htmllogo' src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png'>
-<img id='csslogo' src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png'> 
-</div>
-<section id='HTML5_x_CSS3' class='main-section'>
-<header class='htmlxcss'><strong class='htmlheader'>HTML5</strong> x <strong class='cssheader'>CSS3</strong></header>
-<br><br><br><br><br><br><br><br><br>
-<p>HTML provides the raw tools needed to structure content on a website. CSS, on the other hand, helps to style this content so it appears to the user the way it was intended to be seen. These languages are kept separate to ensure websites are built correctly before they're reformatted.</p>
-<h3>Do you need both HTML and CSS?</h3>
-<p>Although it is generally recommended that aspiring Web designers and developers learn how to read and write HTML code first, that doesn't mean you can ignore CSS altogether. Without CSS, your pages will be visually limited to the formatting and stylistic tags available in HTML.</p>
-</section>
-<p class='reference'>Learn more about HTML and CSS with a free course from <a target="_blank" href='https://www.freecodecamp.org/'>freeCodeCamp</p></a>
-</main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="collage">
+        <img class="mother a" src="file:///C:/Users/Aaron/OneDrive/Desktop/PathFrames/untitled%20folder/remastered/r4.png" alt="" loading="eager">
+    </div>
 </body>
 </html>
